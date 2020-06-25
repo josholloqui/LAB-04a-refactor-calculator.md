@@ -1,0 +1,123 @@
+body {
+    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
+    --color1: hsla(349, 69%, 76%, 1);
+    --color2: hsla(207, 67%, 44%, 1);
+    --color3: hsla(200, 61%, 56%, 1);
+    --color4: hsla(187, 41%, 94%, 1);
+    --color5: hsla(170, 28%, 95%, 1);
+
+    /* --color1: hsla(45, 86%, 83%, 1);
+    --color2: hsla(135, 65%, 98%, 1);
+    --color3: hsla(315, 37%, 86%, 1);
+    --color4: hsla(45, 73%, 98%, 1);
+    --color5: hsla(224, 40%, 79%, 1); */
+    
+    --header-height: 185px;
+    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 25px;
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+header {
+    display: flex;
+    font-size: 26px;
+    font-weight: 900;
+    justify-content: center;
+    background-color: #f5f5f5;
+    height: var(--header-height);
+    /* box-shadow: var(--shadow); */
+    padding-top: 5px;
+}
+
+.topper {
+    border: thick double #6C6A61;
+    color: #6C6A61;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 160px;
+    margin: 15px;
+    padding-top: 50px;
+    padding-left: 5px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+section {
+    border: solid #C0C0C0;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: var(--shadow);
+}
+
+.test{
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: #d1e0d6;
+    height: 125px;
+}
+
+.input {
+    border: solid rgb(248,248,255);
+    height: 50px;
+    width: 100% || 0;
+}
+
+.sign {
+    color: rgb(248,248,255);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.button {
+    border: solid rgb(248,248,255);
+    height: 50px;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--color3);
+    box-shadow: var(--shadow);
+}
+
+.equals {
+    align-self: center;
+    padding-left: 7px;
+}
+  
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: var(--footer-height);
+    display: flex;
+    justify-content: flex-end;
+    background-color: #C2C2C2;
+    box-shadow: var(--shadow);
+}

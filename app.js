@@ -4,7 +4,7 @@ import {
 
 const addButton = document.getElementById('add-button');
 
-const addEquals = document.getElementById('add-equals').;
+const addEquals = document.getElementById('add-equals');
 
 addButton.addEventListener('click', () => {
     const value1 = document.getElementById('add-input1').value;
